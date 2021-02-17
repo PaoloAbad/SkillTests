@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SkillTest_PaoloGabrielAbad.ViewModel
 {
-    class Model
+    public interface ISorterModel
     {
+        string Input { get ; set; }
+        bool HasError { get; set; }
+        string Output { get; set; }
+        string Error { get; set; }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SkillTest_PaoloGabrielAbad.Messages
 {
-    class Error
+    public class Error
     {
+
     }
 }

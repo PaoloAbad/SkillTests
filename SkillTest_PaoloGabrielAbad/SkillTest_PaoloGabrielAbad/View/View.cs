@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SkillTest_PaoloGabrielAbad.View
 {
-    class View
+    public class View
     {
+        public class ISorterView
+        {
+            //void ShowErrorMessage();
+
+        }
     }
 }

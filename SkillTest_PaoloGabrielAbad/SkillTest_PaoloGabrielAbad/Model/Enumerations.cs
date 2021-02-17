@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SkillTest_PaoloGabrielAbad
 {
-    class Enumerations
+    public class Enumerations
     {
+        public enum SortingType
+        {
+            BubbleSort,
+            QuickSort
+        }
     }
 }
